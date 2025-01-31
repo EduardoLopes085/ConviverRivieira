@@ -1,0 +1,19 @@
+.VirtualTour{
+    width: 100%;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+.VirtualTourTitle{
+    color: #282828;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif; /*a font Gothan é paga e não queria baixar*/
+    font-weight: 700;
+    line-height: 180%;
+}

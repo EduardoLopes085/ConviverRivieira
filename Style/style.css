@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    
+    width: 100%;
+    height: auto;
+    /* background-color: rebeccapurple; */
+
+    
+
+}
+
+.PraiaContainer{
+    width: 100%;
+    height: 100dvh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33%;
+
+    
+
+    /* background-image: url(/images/praia-riviera-1.webp); */
+    background-image: linear-gradient(#0003, #0003), url(/images/praia-riviera-1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Header {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; /* Centraliza a logo */
+    
+    
+    background-color: transparent;
+    /* background-color: red; */
+    
+    position: relative; /* Cria um contexto de posicionamento */
+}
+
+.Header > a {
+    width: auto;
+    height: 90%;
+}
+
+.Dropdown {
+    position: absolute; 
+    right: 10rem; 
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+
+.Dropdown h1{
+    color: #ededed;
+    
+    
+    font-family: 'League Spartan', sans-serif;
+    font-size: 22px; 
+
+
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+.Logo {
+    width: auto;
+    height: 90%;
+    margin-top: 1rem;
+}
+
+.Seemore{
+    width: 19.3%;
+    height: 4rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 6px;
+    
+    font-family: Arial, sans-serif;
+    font-size: 23px;
+    color: white;
+    font-weight: bold;
+
+    border: none;
+
+    cursor: pointer;
+
+    background-color:#052236;
+
+
+    transition: 300ms ease-in-out;
+}
+
+.Seemore:hover{
+    background-color: white;
+    color: #052236;
+}
+
+  
+
+/*footer fixo*/
+
+.BottonInforms{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #314D42;
+    z-index: 10;
+    color: white;
+    line-height: 60px;
+
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    
+    
+}
+
+.Canais{
+    height: 100%;
+    
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    word-wrap: break-word;
+    gap: 1rem;
+
+    transition: 300ms ease-in-out;
+    /* background-color: aquamarine; */
+}
+
+.Canais:hover{
+    
+    color: #2b2b2b;
+}
+
+
+
+.arrow{
+   height: 50%;
+
+   color: white;
+   filter: invert()
+
+}
+
+
+.Divisor{
+    width: 100%;
+    height: 15vh;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+    background-image: url(/images/6512e7d62c79da02f71bf34a_BC1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Divisor .TextDivisor{
+    
+    font-size: 32px;
+    font-weight: 900;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.InfinityPool{
+    width: 100%;
+    height: 100vh;
+    
+    
+    background-image: linear-gradient(#00000080, #00000080), url(/images/piscina-com-borda-infinita.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.Copyright{
+    height: 6vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+    background-color: #373b3f;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #71757b;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+
+}
+
+
+.DeveloperBy{
+    height: 9vh;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #052236;
+    text-decoration: none;
+}
+
+.DeveloperBy > a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+    
+}
+
+
+
+.DeveloperBy > a h1{
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 14px;
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+    /* background-color: red; */
+}
+.VisualPage{
+    width: 100px;
+   
+}
+
+
+
+
